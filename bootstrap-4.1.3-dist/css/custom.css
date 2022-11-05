@@ -135,7 +135,7 @@ svg {
 .doglove {
     border: none;
     border-radius: 0px;
-    background-image: url(/images/headerimage.jpg);
+    background-image: url(./images/headerimage.jpg);
     background-size: cover;
     margin-bottom: 0;
 }
