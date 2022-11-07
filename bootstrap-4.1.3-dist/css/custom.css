@@ -93,10 +93,16 @@ svg {
      height: 90px;
      border: none;
 }
-/*.navbar-brand img {
+.navbar-brand img {
     width: 100%;
     margin-left: -10px;
-}*/
+}
+.support {
+;
+   margin-right: auto;
+    margin-left: auto;
+}
+
 .navbar-collapse {
     background-color: #ff914d;
     z-index: 1;
@@ -130,6 +136,7 @@ svg {
     width: 75px;
     height: 40px;
 }
+
 /*Home Page*/
 
 .doglove {
@@ -181,6 +188,25 @@ svg {
 .tiny {
     font-size: 16px;
     color: red;
+}
+
+/* About */
+
+.mission {
+    color: #2e8f8d; 
+}
+
+/* Story */
+
+.sadie {
+   background-color: #ccede7;
+   margin-bottom: 40px;
+   margin-left: 25px;
+   margin-right: 25px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   border-style: solid;
+   border-color: #000000;
 }
 
 /* Adopt */
@@ -241,11 +267,13 @@ svg {
     margin-top: 25px;
 }
 .foster {
-    border-style: solid;
-    border-color: #000000;
-    background-color:#ff914d;
-    padding: 15px;
-    margin-top: 25px;
+   border-style: solid;
+   border-color: #000000; 
+   background-color:#ff914d;
+   margin-bottom: 40px;
+   margin-left: 25px;
+   margin-right: 25px;
+   padding: 30px;
 }
 .volunteer, .quotes {
    padding-left: 25px; 
