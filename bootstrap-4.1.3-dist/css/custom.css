@@ -130,11 +130,16 @@ svg {
     width: 75px;
     height: 40px;
 }
+
 .support {
   display: flex;
   justify-content: center;
   align-items: center;
- }
+  background-color: #abcfcc;
+  height: 105px;
+}
+
+
 .donateb {
   width: 115px;
   height: 50px;
@@ -174,7 +179,12 @@ svg {
     background-size: cover;
     margin-bottom: 0;
 }
+.jumbotron {
+  padding: 0;
+  margin: 0;
+}
  .homeheader {
+    font-size: 6vw; 
     color: #ffffff;
     text-shadow: .5px .5px 3px #ff914d;
  }
@@ -184,7 +194,6 @@ svg {
 .headtext {
     margin-top: 25px;
 }
-
 .img-top{
     margin-top: 45px;
 }
@@ -208,20 +217,66 @@ svg {
     margin-right: 35px;
     margin-left: 35px
 }
+.adopts {
+    border-style: solid;
+    border-color: #000000;
+    background-color:#ff914d;
+}
 
 .faq3 {
     padding-left: 20px;
     padding-right: 20px;
 }
-.tiny {
-    font-size: 16px;
-    color: red;
+/*Members*/
+
+.pack {
+    background-color: #abcfcc;
+}
+.memberphone:link {
+    color: #2e8f8d;
+}
+.memberphone:visited {
+    color: #2e8f8d;
+}
+.memberphone:hover {
+    color: #ff914d;
+    text-decoration: none;
 }
 
+/*Blog*/
+
+.ccblog {
+    background-color: #f5e6d5;
+}
+.tinyb {
+    font-size: 18px;
+    background-color: #abcfcc;
+    height: 100px;
+    padding: 25px;
+}
+.tiny {
+   font-size: 18px;
+   border-style: solid;
+   border-color: #2e8f8d; 
+   border-width: 3px;
+   background-color:#ff914d
+}
+.tiny a:link {
+    color: #2e8f8d;
+}
+.tiny a:visited {
+    color: #2e8f8d;
+}
+.tiny a:hover {
+    color: #abcfcc;
+    text-decoration: none;
+}
+ 
 /* About */
 
 .mission {
-    color: #2e8f8d; 
+    color: #2e8f8d;
+    background-color: #abcfcc;
 }
 
 /* Story */
@@ -229,10 +284,6 @@ svg {
 .sadie {
    background-color: #ccede7;
    margin-bottom: 40px;
-   margin-left: 25px;
-   margin-right: 25px;
-   padding-top: 30px;
-   padding-bottom: 30px;
    border-style: solid;
    border-color: #000000;
 }
@@ -244,6 +295,16 @@ svg {
    margin-bottom: 35px;
    color: #2e8f8d;
 }
+.fix:link {
+    color: #ff914d;
+}
+.fix:visited {
+    color: #ff914d;
+}
+.fix:hover {
+    color: #2e8f8d;
+    text-decoration: none;
+}
 
 .card-img-top {
     width: 100%;
@@ -252,33 +313,26 @@ svg {
 /* FAQS */
 
 .faqs1 {
-    padding-top: 25px;
     background-color: #f7f4f2;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 45px;
-    margin-bottom: 45px;
     border-style: solid;
     border-color: #000000;
 }
-.faqs {
-    text-align: center;
-    margin-bottom: 35px;
-}
-.faq2 {
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
 /*Events and Support*/
-
-.herocontact {
-    margin-top: 35px;
+.secondary {
+   background-color: #f5e6d5;
+   padding-top: 25px;
+}
+.secondary2 {
+   background-color:#abcfcc;
+   padding-top: 25px;
 }
 .fall {
   margin-top: 25px;
   margin-bottom: 25px;
+}
+.needs {
+    background-color: #f5e6d5;
 }
 .image-padding {
     padding-top: 10px;
@@ -296,22 +350,19 @@ svg {
 }
 .foster {
    border-style: solid;
-   border-color: #000000; 
+   border-color: #2e8f8d; 
+   border-width: 3px;
    background-color:#ff914d;
-   margin-bottom: 40px;
-   margin-left: 25px;
-   margin-right: 25px;
-   padding: 30px;
 }
-.volunteer, .quotes {
-   padding-left: 25px; 
+.volcolor {
+    background-color: #abcfcc;
+}
+.volcolors {
+    background-color: #f5e6d5;
 }
 .volimg {
     margin-bottom: 55px;
 
-}
-.descript {
-    margin-top: 45px;
 }
 
 /*Contact*/
@@ -324,6 +375,9 @@ svg {
     padding-right: 50px;
     padding-left: 50px;
     padding-top: 0px;
+}
+.contact {
+    background-color: #f5e6d5;
 }
 .pn {
     text-align: center;
