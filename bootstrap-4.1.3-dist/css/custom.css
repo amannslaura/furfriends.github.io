@@ -366,6 +366,7 @@ svg {
 }
 .links {
     font-size: 18px;
+    word-wrap: break-word;
 }
 /*Contact*/
 
