@@ -364,7 +364,9 @@ svg {
     margin-bottom: 55px;
 
 }
-
+.links {
+    font-size: 18px;
+}
 /*Contact*/
 
 .jumbotron {
