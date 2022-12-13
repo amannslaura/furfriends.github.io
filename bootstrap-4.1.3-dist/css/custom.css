@@ -26,18 +26,18 @@ p {
 }
 .topinfo {
     display: inline;
-    font-size: 12px;
+    font-size: 16px;
     text-shadow: .5px .5px .5px #000000;
     margin-left: 20px;
     color: #ffffff;
 }
 .topaddress {
-    font-size: 12px;
+    font-size: 16px;
     color: #ffffff;
     text-shadow: .5px .5px .5px #000000;
     float: right;
     margin-right: 20px;
-    padding-top: 5px; 
+   
 }
 .phone {
     padding-top: 10px;
@@ -242,7 +242,16 @@ svg {
     color: #ff914d;
     text-decoration: none;
 }
-
+.policy:link {
+     color: #2e8f8d;
+}
+.policy:visited {
+    color: #2e8f8d;
+}
+.policy:hover {
+   color: #f5e6d5 ;
+   text-decoration: none; 
+}
 /*Blog*/
 
 .ccblog {
@@ -368,6 +377,9 @@ svg {
     font-size: 18px;
     word-wrap: break-word;
 }
+.dog {
+    width: 100vw;
+}
 /*Contact*/
 
 .jumbotron {
@@ -424,12 +436,14 @@ svg {
 }
 .bg-light {
     background-color: #2e8f8d !important;
+   
 }
 .footnav {
-    margin-right: 55px;
-    margin-left:  55px;
+    margin-right: 41px;
+    margin-left:  41px;
     color: #ffffff;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .footnav:hover {
     color: #32bab8;
@@ -443,7 +457,28 @@ svg {
     width: 230px;
     margin-left: -10px;
 }
-
+.break {
+    color: white;
+    height: 1px .50;
+    background-color: white;
+}
+.shelter {
+    padding-top: 15px;
+    color: #ffffff;
+    font-size: 23px;
+}
+.shelter1 {
+     padding-top: 15px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.break1 {
+    color: white;
+    height: 1px .50;
+    background-color: white;
+    width: 66%;
+    margin-top: 65px;
+}
 /*Info*/
 
 i.pb {
