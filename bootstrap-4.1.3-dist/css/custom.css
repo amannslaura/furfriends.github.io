@@ -26,13 +26,13 @@ p {
 }
 .topinfo {
     display: inline;
-    font-size: 16px;
+    font-size: 13px;
     text-shadow: .5px .5px .5px #000000;
     margin-left: 20px;
     color: #ffffff;
 }
 .topaddress {
-    font-size: 16px;
+    font-size: 13px;
     color: #ffffff;
     text-shadow: .5px .5px .5px #000000;
     float: right;
