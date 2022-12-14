@@ -16,24 +16,24 @@ p {
 /*Top Info*/
 
 .top {
-    background-image: linear-gradient(180deg, #ff914d,  #ff914d, #ff914d, #2e8f8d);
+    background-image: linear-gradient(180deg, #cc5a12,  #cc5a12, #cc5a12, #2e8f8d);
     height: 60px;
     width: 100%;
 }
 .bi-telephone {
     color: #ffffff;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 .topinfo {
     display: inline;
-    font-size: 15px;
+    font-size: 13px;
     text-shadow: .5px .5px .5px #000000;
     margin-left: 2px;
     color: #ffffff;
 }
 .topaddress {
-  
-    font-size: 15px;
+    padding-top: 3px;
+    font-size: 13px;
     color: #ffffff;
     text-shadow: .5px .5px .5px #000000;
     float: right;
