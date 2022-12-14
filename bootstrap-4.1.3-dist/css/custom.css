@@ -357,6 +357,12 @@ svg {
 .role {
     margin-top: 25px;
 }
+.donate1 {
+    background-color: #abcfcc;
+     border-style: solid;
+   border-color: #000000; 
+   border-width: 3px;
+}
 .foster {
    border-style: solid;
    border-color: #2e8f8d; 
