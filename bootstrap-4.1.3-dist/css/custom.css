@@ -26,17 +26,18 @@ p {
 }
 .topinfo {
     display: inline;
-    font-size: 13px;
+    font-size: 15px;
     text-shadow: .5px .5px .5px #000000;
     margin-left: 20px;
     color: #ffffff;
 }
 .topaddress {
-    font-size: 13px;
+    padding-top: 2px;
+    font-size: 15px;
     color: #ffffff;
     text-shadow: .5px .5px .5px #000000;
     float: right;
-    margin-right: 20px;
+    margin-right: 15px;
    
 }
 .phone {
